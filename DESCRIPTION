@@ -1,0 +1,16 @@
+Package: SchrodingerBridges
+Type: Package
+Title: Numerical implementation of Schrodinger bridges
+Version: 1.0
+Date: 2018-10-11
+Author: Jeremy Heng & Espen Bernton
+Maintainer: Jeremy Heng <jeremyhengjm@gmail.com>
+Description: This package implements the iterated proportional fitting procedure to approximate Schrodinger bridges.
+URL: https://github.com/jeremyhengjm/GibbsFlow
+BugReports: https://github.com/jeremyhengjm/GibbsFlow/issues
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 0.12.13), tictoc
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 6.0.1
